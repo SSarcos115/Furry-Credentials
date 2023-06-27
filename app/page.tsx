@@ -1,11 +1,18 @@
 import React from "react";
+import logo from "../Images/furry-credentials-low-resolution-logo-color-on-transparent-background.png";
+import NavBar from "./Components/nav";
+import Main from "./Components/main";
 
 function Home() {
   return (
-    <div>
-      <h1 className="text-green-500">Hello World</h1>
-      <h2>Hello World Again</h2>
-    </div>
+    <>
+      <div className="navBar">
+        <NavBar />
+      </div>
+      <div>
+        <Main />
+      </div>
+    </>
   );
 }
 
